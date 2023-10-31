@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-elcx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0100-tenant/ci1t-43256-0100-app/devfile-sample-elcx@sha256:b379db2e47b5180b59f6ff58f0e229e7567ae8ef59f4748c7c09fd5429105a1d
+        name: my-nodejs
+        resources: {}
+status: {}
