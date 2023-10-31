@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-elcx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0100-tenant/ci1t-43256-0100-app/devfile-sample-elcx@sha256:b379db2e47b5180b59f6ff58f0e229e7567ae8ef59f4748c7c09fd5429105a1d
         name: my-nodejs
         ports:
         - containerPort: 3001
